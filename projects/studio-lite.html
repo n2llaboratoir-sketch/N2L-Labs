@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="N2L Studio Lite - projet N2L Labs.">
+  <meta name="description" content="N2L Studio Lite, application Windows en bêta pour automatiser et enrichir les LIVE TikTok avec OBS, overlays, webhooks, TTS et workflows.">
   <meta name="theme-color" content="#080b0e">
   <title>N2L Studio Lite | N2L Labs</title>
   <link rel="stylesheet" href="../assets/css/style.css">
@@ -14,31 +14,49 @@
     <a class="brand" href="../index.html"><img class="brand-mark" src="../assets/img/n2l-labs.jpg" alt="Logo N2L Labs"><div class="brand-copy"><strong>N2L LABS</strong><span>Projets personnels & utilitaires</span></div></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Ouvrir le menu">Menu</button>
     <nav class="nav-links"><a href="../index.html">Accueil</a><a href="../index.html#projets">Projets</a><a href="../index.html#apropos">À propos</a></nav>
-    <a class="btn btn-secondary" href="../index.html#projets">Tous les projets</a>
+    <a class="btn btn-secondary" href="#captures">Voir l'interface</a>
   </div>
 </header>
-<main class="project-page">
+<main class="project-page android-project-page">
   <div class="container">
-    <section class="project-hero">
+    <section class="project-hero android-hero">
       <img src="../assets/img/n2l-studio-lite.png" alt="Logo N2L Studio Lite">
       <div>
-        <div class="status-line">Disponible</div>
+        <div class="status-line">Bêta • Windows</div>
         <h1>N2L Studio Lite</h1>
-        <p class="lead">Une déclinaison plus légère de N2L Studio.</p>
+        <p class="lead">Automatisez votre LIVE. Créez vos interactions. Personnalisez votre stream.</p>
+        <p>Une application Windows développée en autodidacte pour connecter TikTok LIVE à vos automatisations, médias, overlays et outils de streaming. Le projet est encore en bêta et continue d'évoluer.</p>
+        <div class="app-pills"><span>TikTok LIVE</span><span>OBS</span><span>Overlays</span><span>Webhooks</span><span>TTS</span><span>Workflows</span></div>
       </div>
     </section>
-    <div class="content-grid">
-      <section class="content-box">
-        <h2>À propos du projet</h2>
-        <p>N2L Studio Lite peut avoir sa propre page de présentation tout en restant rattaché au même site N2L Labs. Les versions pourront ensuite être proposées via GitHub Releases, avec un bouton de téléchargement propre à chaque publication.</p>
-        <p>Cette page pourra évoluer avec des captures d'écran, l'historique des versions, les notes de mise à jour et les informations de téléchargement.</p>
-      </section>
-      <aside class="content-box" id="download">
-        <h2>Téléchargement</h2>
-        <div class="notice">Le lien de téléchargement n'est pas encore configuré dans cette maquette.</div>
-        <p>Lorsque le lien sera prêt, il pourra pointer directement vers une GitHub Release sans modifier l'organisation générale du site.</p>
-      </aside>
-    </div>
+
+    <section class="project-section">
+      <div class="section-head left-head"><span class="eyebrow">Fonctionnalités</span><h2>Un centre de contrôle pour vos LIVE</h2><p>Lite rassemble les outils essentiels dans une seule interface, avec une approche visuelle pour construire des interactions sans multiplier les logiciels.</p></div>
+      <div class="feature-cards">
+        <article class="content-box feature-box"><div class="feature-icon">⚡</div><h3>Actions & événements</h3><p>Déclenchez des actions à partir des cadeaux, likes, follows, partages, republications, arrivées de viewers ou messages du chat.</p></article>
+        <article class="content-box feature-box"><div class="feature-icon">⌘</div><h3>Créateur visuel V2</h3><p>Construisez des règles sous forme de blocs et reliez déclencheurs et actions dans un workflow visuel.</p></article>
+        <article class="content-box feature-box"><div class="feature-icon">▣</div><h3>Overlays & widgets</h3><p>Ajoutez alertes, compteurs, objectifs, classements, chronomètres et cartes d'audience à votre scène.</p></article>
+        <article class="content-box feature-box"><div class="feature-icon">♫</div><h3>Médias & TTS</h3><p>Centralisez sons, images, GIF et vidéos, puis utilisez-les dans vos actions, overlays et interactions vocales.</p></article>
+      </div>
+    </section>
+
+    <section class="project-section" id="captures">
+      <div class="section-head left-head"><span class="eyebrow">Captures réelles</span><h2>Découvrez N2L Studio Lite</h2><p>Ces captures proviennent directement de l'application. L'interface présentée correspond aux pages prévues pour la version Lite.</p></div>
+      <div class="android-gallery lite-gallery">
+        <figure class="screenshot-box"><img src="../assets/img/lite/vue-ensemble.png" alt="Vue d'ensemble de N2L Studio Lite" loading="lazy"><figcaption><strong>Vue d'ensemble</strong> — état du LIVE, viewers, likes, diamants, cadeaux, followers, activité récente et services connectés.</figcaption></figure>
+        <figure class="screenshot-box"><img src="../assets/img/lite/actions-evenements.png" alt="Actions et événements de N2L Studio Lite" loading="lazy"><figcaption><strong>Actions & événements</strong> — automatisez OBS, webhooks, sons et autres actions à partir des événements du LIVE.</figcaption></figure>
+        <figure class="screenshot-box"><img src="../assets/img/lite/createur-visuel.png" alt="Créateur visuel V2 de N2L Studio Lite" loading="lazy"><figcaption><strong>Créateur visuel V2</strong> — assemblez vos règles en reliant visuellement un déclencheur à une ou plusieurs actions.</figcaption></figure>
+        <figure class="screenshot-box"><img src="../assets/img/lite/overlays-widgets.png" alt="Galerie overlays et widgets de N2L Studio Lite" loading="lazy"><figcaption><strong>Overlays & widgets</strong> — une galerie de modules configurables pour enrichir l'affichage OBS pendant le LIVE.</figcaption></figure>
+        <figure class="screenshot-box"><img src="../assets/img/lite/mediatheque.png" alt="Médiathèque de N2L Studio Lite" loading="lazy"><figcaption><strong>Médiathèque</strong> — importez et organisez les sons, images, GIF et vidéos utilisés par vos automatisations.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="project-section">
+      <div class="content-grid android-info-grid">
+        <section class="content-box"><h2>Automatisations plus poussées</h2><ul class="feature-list"><li>Connexion aux événements TikTok LIVE</li><li>Actions OBS et affichage d'overlays</li><li>Webhooks et intégration Streamer.bot</li><li>Lecture TTS et lecture de médias</li><li>Profils et workflows importables / exportables</li><li>Créateur visuel pour organiser les règles</li></ul></section>
+        <aside class="content-box" id="download"><h2>Téléchargement</h2><div class="notice"><strong>N2L Studio Lite est actuellement en bêta.</strong><br>Le téléchargement public sera prochainement disponible.</div><p>La compatibilité annoncée est Windows. Les informations de téléchargement seront ajoutées ici lorsque la version publique sera prête.</p><div class="download-actions"><span class="btn btn-secondary" aria-disabled="true">Prochainement disponible</span></div></aside>
+      </div>
+    </section>
   </div>
 </main>
 <footer><div class="container"><div class="footer-bottom"><span>© <span data-year></span> N2L Labs.</span><a href="../index.html">Retour à l'accueil</a></div></div></footer>
