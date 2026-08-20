@@ -45,3 +45,11 @@ Exemple :
 ## Important
 
 Les textes sont volontairement modestes : ils indiquent que les projets sont développés en autodidacte, sur ton temps libre, sans te présenter comme une entreprise ou une équipe professionnelle.
+
+
+## Contact et soutien
+
+- Contact : n2l.laboratoir@gmail.com
+- PayPal : https://paypal.me/N2LStudio
+- N2L Studio Android : téléchargement depuis la dernière GitHub Release du dépôt `n2l-studio`.
+- N2L Studio Lite : téléchargement depuis la page de la dernière GitHub Release du dépôt `N2L-Studio-Lite`, avec clé d'activation gratuite sur demande par e-mail.
