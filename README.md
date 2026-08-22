@@ -53,3 +53,14 @@ Les textes sont volontairement modestes : ils indiquent que les projets sont dé
 - PayPal : https://paypal.me/N2LStudio
 - N2L Studio Android : téléchargement depuis la dernière GitHub Release du dépôt `n2l-studio`.
 - N2L Studio Lite : téléchargement depuis la page de la dernière GitHub Release du dépôt `N2L-Studio-Lite`, avec clé d'activation gratuite sur demande par e-mail.
+
+
+## N2L Studio V2
+
+La v6 ajoute une page dédiée à N2L Studio V2, actuellement disponible en bêta. Le dépôt recommandé pour cette version est `N2L-Studio-V2` afin de séparer ses Releases de N2L Studio Android et de N2L Studio Lite. Tant que le dépôt n'existe pas, le bouton de la page V2 ouvre un e-mail de demande d'accès bêta.
+
+Une fois la première Release publiée, remplacer ce bouton par un lien direct de type :
+
+`https://github.com/n2llaboratoir-sketch/N2L-Studio-V2/releases/latest/download/N2L-Studio-V2-Setup.exe`
+
+Conserver un nom de fichier stable (`N2L-Studio-V2-Setup.exe`) permet au site de toujours télécharger automatiquement la dernière Release.
